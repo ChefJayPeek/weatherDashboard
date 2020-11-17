@@ -24,7 +24,7 @@ var formSumbitHandler = function(event){
 }
 
 var saveSearch = function(){
-    console.log(cities);
+
     localStorage.setItem("cities", JSON.stringify(cities));
 };
 
